@@ -74,8 +74,7 @@ class Comp:
     C_VALUE_SCALE = "value_scale"
     C_TOLERANCE   = "tolerance"
     C_DESCRIPTION = "description"
-
-    # Internal constant.
+    # Internal.
     C_CURR_VALUE  = "curr_value"
     C_BEST_VALUE  = "best_value"
     C_WORST_VALUE = "worst_value"
@@ -88,6 +87,7 @@ class TCalcValues:
     C_TARGET_VALUE = "target_value"
     C_UNITS        = "units"
     C_DESCRIPTION  = "description"
+    # Internal.
     C_CALC_VALUE   = "calc_value"
     C_BEST_VALUE   = "best_value"
     C_WORST_VALUE  = "worst_value"
