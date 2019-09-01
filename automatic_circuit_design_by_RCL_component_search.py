@@ -641,7 +641,7 @@ def main():
     worst_tolerance_component_analysis()
     
     print("### Resistor tolerance analysis")
-    print("Worst_error: ", get_worst_prev_error)
+    print("Worst_error: ", get_worst_prev_error())
     for _, target_values in dic_target_calc_values.items():
         print("Worst %s_obtained: %f %s  delta: %s %s" % (target_values.get(TCalcValues.C_NAME),
               target_values.get(TCalcValues.C_WORST_VALUE), target_values.get(TCalcValues.C_UNITS), 
